@@ -18,8 +18,7 @@
     .container{
         background-color:rgb(60, 86, 124);
         display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
+       
     }
     .item1{
         background-color:rgb(192, 75, 75);
@@ -96,19 +95,10 @@
     }
 
     .container{
-        
+        display: flex;
         flex-direction: column;
     }
-    .item1{
-        width: 252px;
-    }
-    .item2{
-        width: 252px;
-
-    }
-    .item3{
-        width: 252px;
-    }
+   
 
 
 }
