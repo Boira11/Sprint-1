@@ -1,0 +1,275 @@
+.general {
+    max-width: 1200px;
+ 
+ }
+ 
+ 
+ .top {
+   
+ border: solid 15px;
+   
+ }
+ 
+ 
+ .bloc1 {
+    border-bottom: solid 10px;
+    background-color:rgb(60, 86, 124);
+    width: auto;
+    padding: 10px;
+    
+ 
+ }
+ 
+ .bloc2 {
+    background-color: rgb(241, 123, 80);
+    width: auto;
+    padding: 10px;
+   
+ }
+ 
+ .wrapper {
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+ }
+ 
+ .wrapper2 {
+ 
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .elemento1{
+    background-color:rgb(192, 75, 75);
+    height: 15px;
+    width: 300px;
+    margin: 15px;
+   
+ }
+ 
+ .elemento2{
+    
+    width: 800px;
+    margin: 5px;
+    height: 20px;
+    display: flex;
+    justify-content: center;  
+ 
+ }
+
+ .menu {
+
+   margin-right: 20px;
+   margin-left: 20px;
+   margin-top: 8px;
+
+
+ }
+ 
+ .elemento3 {
+ 
+    background-color:rgb(247, 247, 91);
+    height: 15px;
+    width: 1200px;
+    margin: 5px;
+    
+ }
+ 
+ .body {
+    border: solid 15px;
+    width: auto;
+    margin-top: 20px;
+ 
+ }
+ 
+ .blocB1 {
+ 
+   background-color:rgb(60, 86, 124);
+   width: 700px;
+   padding: 15px;
+   border-right: solid 15px;
+  
+
+ }
+ 
+ .elemento4{
+ 
+    background-color:rgb(61, 122, 214);
+    width: 800px;
+    margin: 5px;
+    height: 25px;
+ 
+ }
+ 
+ .elemento5{
+ 
+   background-color:rgb(61, 122, 214);
+   width: 800px;
+   margin: 5px;
+   height: 25px;
+ 
+ }
+ 
+ .elemento6{
+ 
+   background-color: rgb(131, 174, 240);
+   width: auto;
+   margin-top: 10px;
+   height: 25px;
+ 
+ }
+ 
+ .blocB2 {
+ 
+   background-color:rgb(230, 73, 73);
+   width: 500px;
+   padding: 15px;
+  
+ 
+ }
+ 
+ .elemento7{
+ 
+   background-color:rgb(245, 248, 80);
+   width: auto;
+   margin-top: 10px;
+   height: 25px;
+ 
+ }
+ 
+ .bottom {
+   
+    border:solid 15px;
+    width: auto;
+    
+    margin-top: 20px;
+ 
+ 
+ }
+ 
+ .ultimoElemento     {
+ 
+    background-color:gold;
+    height: 10px;
+    width: auto;
+    
+    padding: 5px;
+    
+   
+ }
+ 
+ 
+ @media (min-width: 768px) and (max-width: 1024px){
+ 
+    
+    .bloc1 {
+ 
+       background-color:rgb(60, 86, 124);
+       border-bottom: 10px;
+       padding: auto;
+ 
+    }
+ 
+    .bloc2{
+ 
+       width: auto;
+    }
+ 
+    .body{
+ 
+       border: solid 15px yellow;
+    }
+ 
+    .blocB1{
+ 
+       border-right: none;
+       width: auto;
+       
+    }
+ 
+    .blocB2{
+       
+       border-top: solid 15px yellow;
+       width: auto;
+       
+    }
+ 
+    .wrapper2 {
+ 
+       display:block;
+       justify-content: center;
+    }
+ 
+ }
+
+ @media (min-width: 320px) and (max-width: 480px){
+    .general{
+
+        max-width: 480px;
+    }
+
+    .wrapper {
+
+        display: block;
+    }
+
+   .elemento1{
+
+    width: auto;
+   }
+
+    .elemento2{
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: auto;
+    }
+
+    .elemento3{
+
+        width: auto;
+    }
+
+    .body{
+ 
+        border: solid 15px yellow;
+     }
+
+    .blocB1{
+
+        border-right: none;
+
+        width: auto;
+        
+    }
+
+    .wrapper2{
+
+        display: block;
+    }
+
+    .blocB2{
+
+       border-top: solid 15px yellow;
+       width: auto;
+    }
+
+    
+
+    .elemento4, .elemento5{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-right: none;
+        width: auto;
+    }
+
+    .bottom{
+
+        width: auto;
+    }
+
+
+
+
+ }

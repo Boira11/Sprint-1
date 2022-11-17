@@ -1,0 +1,152 @@
+.general {
+    max-width: 1200px;
+
+}
+
+
+.top {
+   
+ border: solid 15px;
+   
+}
+
+
+.bloc1 {
+   border-bottom: solid 10px;
+    background-color:rgb(60, 86, 124);
+    width: auto;
+    padding: 10px;
+    
+
+ }
+
+ .bloc2 {
+    background-color: rgb(241, 123, 80);
+    width: auto;
+    padding: 10px;
+   
+ }
+
+ .wrapper {
+
+    display: flex;
+    justify-content: center;
+ }
+
+ .elemento1{
+    background-color:rgb(192, 75, 75);
+    height: 15px;
+    width: 300px;
+    margin: 5px;
+    
+
+
+ }
+
+ .elemento2{
+    background-color:rgb(192, 75, 75);
+    width: 800px;
+    margin: 5px;
+    height: 15px;
+
+ }
+
+ .elemento3 {
+
+    background-color:rgb(247, 247, 91);
+    height: 15px;
+    width: 1200px;
+    margin: 5px;
+    
+   
+ }
+
+ .body {
+    border: solid 15px;
+    width: auto;
+    margin-top: 20px;
+ 
+ }
+
+ .blocB1 {
+
+   background-color:rgb(60, 86, 124);
+   width: 700px;
+   padding: 15px;
+   border-right: solid 15px;
+  
+  
+
+ }
+
+ .elemento4{
+
+    background-color:rgb(61, 122, 214);
+    width: 800px;
+    margin: 5px;
+    height: 25px;
+
+ }
+
+ .elemento5{
+
+   background-color:rgb(61, 122, 214);
+   width: 800px;
+   margin: 5px;
+   height: 25px;
+
+}
+
+.elemento6{
+
+   background-color: rgb(131, 174, 240);
+   width: auto;
+   margin-top: 10px;
+   height: 25px;
+
+}
+
+ .blocB2 {
+
+   background-color:rgb(230, 73, 73);
+   width: 500px;
+   padding: 15px;
+  
+
+ }
+
+ .elemento7{
+
+   background-color:rgb(245, 248, 80);
+   width: auto;
+   margin-top: 10px;
+   height: 25px;
+
+}
+
+ .bottom {
+   
+    border:solid 15px;
+    width: auto;
+    
+    margin-top: 20px;
+ 
+ 
+ }
+
+ .ultimoElemento     {
+
+    background-color:gold;
+    height: 10px;
+    width: auto;
+    
+    padding: 5px;
+    
+   
+ }
+
+ 
+
+
+
+ 
