@@ -1,13 +1,18 @@
+body{
 
-
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
 *{
     margin: 10px;
     padding: 10px;
-    box-sizing: border-box;
 }
-.general{
 
+.general{
+    
     display: flex;
+    
     flex-flow: column nowrap;
 
 }
@@ -23,8 +28,6 @@
         flex-flow: row nowrap;
         height: 100px;
         align-items: center;
-        
-        
     }
     .item1{
         
@@ -50,7 +53,7 @@
     .container2{ 
             display: flex;
             align-items:flex-end;
-            background: url(../../images/header.jpg);
+            background: url(../images/header.jpg);
             background-position: center;
             background-attachment:contain;
             background-size: cover;
@@ -67,33 +70,84 @@
         
 
         }
-
+        h2{
+            text-align: left;
+            margin-left: 30px;
+            background-color:#F08080;
+            color:white;
+            padding:10px 10px 0px 10px;
+            width:80%;
+            margin-top:4px;
+        }
+        p{
+            display: flex;
+            text-align: left;
+            margin: 0px;
+        }
+       
 .section{
-
-    background: #000;
+    
+    background:white;
     display: flex;
+    
+    
+    
 }
     .container3{
-        background-color:rgb(60, 86, 124);
+        background-color:rgb(105, 105, 105);
         flex: 2 1 auto;
         display: flex;
         flex-flow: row wrap;
+        text-align: center;
+        margin-right: 0px;
+        
+    }
+    .articulo1{
+        display: flex;    
+
+    }
+
+    .articulo2{
+        display: flex;
+    }
+    .articulo3{
+        display: flex;
+    }
+
+    .articulo4{
+        display: flex;
+    }
+    .item5 img{
+        margin-left: 0px;
+        width:83%;
+        padding: 0px 0px 5px 0px;
     }
         .item5{
-            background-color:rgb(61, 122, 214);
+            background-color:white;
+            border: solid 10px #808080;
             flex: 1 1 40%;
+            padding: 0px;
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
 
         }
         .item6{
-            background-color:rgb(131, 174, 240);
+            background-color:transparent;
+
             flex: 1 1 100%;
         }
+    
     .container4{
-        background-color:rgb(230, 73, 73);
-        flex: 1 1 auto;
+        background-color:grey;
+        flex: 1 1,5 auto;
+           
+    
     }
         .item7{
-            background-color:rgb(245, 248, 80);
+            background-color:grey;
+            
+            
         }
 
 .footer {
@@ -122,16 +176,23 @@
         flex-direction: column;
 
     }
+    .container{
+        flex-direction:column;
+        height:auto;    
+    }
 
 @media all and (max-width:400px){
-    .aside{
-       flex-direction: column;
-            
-        }
+    
     .menu{
        flex-direction: column;
+       
 
    }
+
+   .container{
+    flex-direction:column;
+    height:auto;    
+}
 
 
 }
